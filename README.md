@@ -1,3 +1,3 @@
 # recipe
-Following The Odin project recipe project.
+Following The Odin project recipe.
 
