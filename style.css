@@ -1,8 +1,22 @@
 * {
-    font-family: Monaco, Tahoma, Verdana;
+    font-family: Tahoma, Monaco, Verdana;
+    text-align: center;
 }
 
-image {
+img {
     height: auto;
-    width: 100;
+    width: 300px;
+}
+
+body {
+    background-color: #e79caa;
+    
+}
+
+h2 {
+    background-color: #e9d5be;
+}
+
+li {
+    list-style-type: none;
 }
