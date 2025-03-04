@@ -1,16 +1,16 @@
 * {
     font-family: Tahoma, Monaco, Verdana;
     text-align: center;
+    background-color: #e79caa;
+}
+
+a {
+    color: #044236;
 }
 
 img {
     height: auto;
     width: 300px;
-}
-
-body {
-    background-color: #e79caa;
-    
 }
 
 h2 {
@@ -19,4 +19,8 @@ h2 {
 
 li {
     list-style-type: none;
+}
+
+h3, p {
+    text-align: left;
 }
