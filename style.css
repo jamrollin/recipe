@@ -19,6 +19,11 @@ body {
     padding: 7.5px;
     background-color: #e79caa;
     border-radius: 8px;
+    
+}
+
+ul { 
+    list-style-type: none;
 }
 
 a {
@@ -39,10 +44,18 @@ h2 {
 }
 
 li {
-    list-style-type: none;
+    margin: 3.8px;
+    
 }
 
-.steps {
-    text-align: left;
-    margin: 3.8px;    
+.steps.list {
+    list-style: decimal inside; 
+    margin-left: 6px;
+    padding-left: 6px;
+    padding-bottom: 6.7px;
+    text-align: left;    
+}
+
+ul li::marker {
+    font-weight: bold;
 }
