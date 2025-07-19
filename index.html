@@ -5,27 +5,33 @@
         <title> Recipe Archive </title>
 
         <link rel="stylesheet" href="style.css"/>
+        <script src="script.js" defer> </script>  
     </head>
     <body>
       <div class="recipe">
         <h1>Recipe Archive</h1>
 
         <div class="categories">
-          <label>
-            <select>
-              <option> All </option>
-              <option> Vegetable </option>
+          <label for="categories"> Filter by category: </label>
+
+            <select id="categories" name="Categories">
+              <option value="all"> All </option>
+              <option value="vegetable"> Vegetable </option>
+              <option value="meat"> Meat </option>
             </select>
-          </label>
+        
         </div>
 
         <div class="list card">
-            <ul>
-              <li><a href="carbonara.html">Italian Carbonara with Bacon</a> </li>
-              <li><a href="#""> Spam Musubi</a></li>    
-            
+            <ul id="recipeList">
+              <li data-category="meat"><a href="carbonara.html">Italian Carbonara with Bacon</a> </li>
+              <li data-category="meat"><a href="spam-musubi.html""> Spam Musubi</a></li>    
+              <li data-category="vegetable"> <a href="eggplant-omelette.html"> Eggplant Omelette </a></li>
+              <li data-category="vegetable"> <a href="green-beans-w-groundbeef.html"> Sauteed Green Beans with Ground Beef </a></li>
+              <li data-category="vegetable"> <a href="adobong-sitaw-at-kangkong.html"> Adobong Sitaw at Kangkong with Chicharon </a></li>
             </ul>
         </div>
-      </div>        
+      </div> 
+      
     </body>
 </html>
